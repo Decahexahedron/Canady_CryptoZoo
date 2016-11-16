@@ -9,9 +9,7 @@ public interface ZooAnimal {
     public void setFoodAmt(int amt);
 
     public int getFoodAmt();
-    
-    public void setFoodWeek();
-    
-    public int getFoodWeek();
+
+    public int foodPerWeek();
 
 }

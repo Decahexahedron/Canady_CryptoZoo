@@ -2,8 +2,13 @@ package cryptozoo;
 
 public class Mythical extends Animal {
 
-    public Mythical(String nam, String orig, int danger) {
+    String foodType;
+    int foodAmt;
+
+    public Mythical(String nam, String orig, int danger, String foodt, int fooda) {
         super(nam, orig, danger);
+        this.foodType = foodt;
+        this.foodAmt = fooda;
     }
 
     @Override
@@ -28,17 +33,7 @@ public class Mythical extends Animal {
 
     @Override
     public int foodPerWeek() {
-        return this.foodWeek;
-    }
-
-    @Override
-    public void setFoodWeek() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
-    }
-
-    @Override
-    public int getFoodWeek() {
-        return this.foodWeek;
+        return 7;
     }
 
 }

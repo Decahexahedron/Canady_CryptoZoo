@@ -8,37 +8,27 @@ public class LingerLing extends Animal {
 
     @Override
     public int foodPerWeek() {
-        throw new UnsupportedOperationException("Not supported yet.");
+        return 0;
     }
 
     @Override
     public void setFoodType(String food) {
-        throw new UnsupportedOperationException("Not supported yet.");
+        
     }
 
     @Override
     public String getFoodType() {
-        throw new UnsupportedOperationException("Not supported yet.");
+        return "none";
     }
 
     @Override
     public void setFoodAmt(int amt) {
-        throw new UnsupportedOperationException("Not supported yet.");
+
     }
 
     @Override
     public int getFoodAmt() {
-        throw new UnsupportedOperationException("Not supported yet.");
-    }
-
-    @Override
-    public void setFoodWeek() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
-    }
-
-    @Override
-    public int getFoodWeek() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        return 0;
     }
 
 }
